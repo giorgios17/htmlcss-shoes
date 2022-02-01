@@ -4,15 +4,30 @@
     padding: 0;
 }
 
+body{
+/* overflow: hidden; */
+font-family: 'Roboto', sans-serif;
+}
+
 .bg-product{
     height: 100vh;
     width: 100%;
+    position: relative;
 }
+
+.bg-product img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 
 .product1{
     background-color: red;
-
 }
+
 
 .product2{
     background-color: green;
@@ -22,4 +37,15 @@
 .product3{
     background-color: yellow;
 
+}
+
+h1{
+    text-transform: uppercase;
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product3 h1{
+    color: green;
 }
