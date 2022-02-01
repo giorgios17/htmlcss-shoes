@@ -9,6 +9,12 @@ body{
 font-family: 'Roboto', sans-serif;
 }
 
+
+nav a{
+    background-color: yellow;
+    float: right;
+}
+
 .bg-product{
     height: 100vh;
     width: 100%;
@@ -23,18 +29,17 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-
-.product1{
+#product1{
     background-color: red;
 }
 
 
-.product2{
+#product2{
     background-color: green;
 
 }
 
-.product3{
+#product3{
     background-color: yellow;
 
 }
@@ -44,6 +49,8 @@ h1{
     color: yellow;
     font-weight: bold;
     text-align: center;
+    position: absolute;
+    top: 20px;
 }
 
 .product3 h1{
