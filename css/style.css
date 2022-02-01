@@ -3,3 +3,23 @@
     margin: 0;
     padding: 0;
 }
+
+.bg-product{
+    height: 100vh;
+    width: 100%;
+}
+
+.product1{
+    background-color: red;
+
+}
+
+.product2{
+    background-color: green;
+
+}
+
+.product3{
+    background-color: yellow;
+
+}
