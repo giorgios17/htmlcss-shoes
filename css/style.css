@@ -9,6 +9,8 @@ overflow: hidden;
 font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* NAVIGAZIONE */
+
 nav{
     position: fixed;
     top: 0;
@@ -32,6 +34,8 @@ nav a{
     line-height: 30px;
     
 }
+
+/* PRODOTTI */
 
 .bg-product{
     height: 100vh;
@@ -61,6 +65,8 @@ nav a{
     background-color: yellow;
 
 }
+
+/* TITOLI */
 
 h1{
     text-transform: uppercase;
